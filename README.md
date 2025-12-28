@@ -29,12 +29,14 @@ Insights were generated to help reduce customer churn.
 
     accuracy                           0.82      1409
    macro avg       0.77      0.73      0.75      1409
+weighted avg       0.81      0.82      0.81      1409
+```
 
 ### Notebook Outputs
 
 #### 1. Data Cleaning (`1_data_cleaning.ipynb`)
 **Dataset Info:**
-```
+```text
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 7043 entries, 0 to 7042
 Data columns (total 20 columns):
@@ -56,7 +58,7 @@ memory usage: 1.1+ MB
 
 #### 3. Feature Engineering (`3_feature_engineering.ipynb`)
 **Processed Data Preview:**
-```
+```text
    gender  SeniorCitizen  Partner  Dependents    tenure  PhoneService  ...
 0       0              0        1           0 -1.277445             0  ...
 1       1              0        0           0  0.066327             1  ...
@@ -81,3 +83,4 @@ memory usage: 1.1+ MB
    macro avg       0.77      0.74      0.75      1409
 weighted avg       0.81      0.82      0.81      1409
 ```
+
