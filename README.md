@@ -1,6 +1,26 @@
 # 📊 Customer Churn Analysis & Prediction
 
-## 🎯 Objective
+
+## 🌟 Executive Summary (For Non-Tech Analysis)
+
+### ❓ What is "Customer Churn"?
+"Churn" is simply when a customer cancels their service or stops buying from a company. For a telecom company, this means losing a subscriber.
+
+### 💡 The Problem
+It is much more expensive to find new customers than to keep existing ones. If the company doesn't know *who* is unhappy, they can't do anything to stop them from leaving.
+
+### 🚀 The Solution
+We used historical data to build a "smart system" (Machine Learning model) that learns patterns from customers who left in the past. 
+
+**For example, it might learn that:** 
+> *"Customers with high monthly bills who are on a month-to-month contract are very likely to leave."*
+
+### ✅ Key Results
+Our model can now look at a current customer and predict if they will leave with roughly **82% accuracy**. This allows the business to reach out to these "at-risk" customers *before* they cancel.
+
+---
+
+## 🎯 Technical Objective
 To analyze customer behavior and predict churn using machine learning techniques.
 
 ## 🛠️ Tools Used
